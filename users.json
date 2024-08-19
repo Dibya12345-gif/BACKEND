@@ -1,0 +1,43 @@
+[
+  {
+    "username": "johndoe",
+    "email": "johndoe@example.com",
+    "password": "hashedpassword123"
+  },
+  {
+    "username": "janedoe",
+    "email": "janedoe@example.com",
+    "password": "hashedpassword456"
+  },
+  {
+    "username": "DIBYA",
+    "email": "divyadas2727@gmail.com",
+    "password": "qwerty"
+  },
+  {
+    "username": "ivy",
+    "email": "1234@asd",
+    "password": "12345",
+    "cpassword": "12345"
+  },
+  {
+    "username": "rose",
+    "email": "tftyf@cghch",
+    "password": "zxcvb"
+  },
+  {
+    "username": "po",
+    "email": "po@gmail.com",
+    "password": "poopo"
+  },
+  {
+    "username": "DIBYA",
+    "email": "divyadas2727@gmail.com",
+    "password": "qwerty123"
+  },
+  {
+    "username": "yo",
+    "email": "yo@gmail.com",
+    "password": "$2b$10$wDpV09Z3eAHag2gjpt5ToOd/E425t/DeOmwAAULHJWxn803/OCOwC"
+  }
+]

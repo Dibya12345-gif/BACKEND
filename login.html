@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- Bootstrap 4 CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+    <!-- Fontawesome CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-info">
+    <header class="container mt-3">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column myColor p-4">
+                <h1>Login Form</h1>
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="#" style="color:black;">Home</a> | <a href="#" style="color:black;">About</a> | <a href="#" style="color:black;">Contact</a>
+            </div>
+        </div>
+    </header>
+    <!-- Login Form Start -->
+    <div class="container-fluid">
+        <div class="row justify-content-center wrapper">
+            <div class="col-lg-10 my-auto myShadow">
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center myColor bg-white p-4">
+                        <h1 class="text-center font-weight-bold text-primary">Sign in to Account</h1>
+                        <hr class="my-3" />
+                        <form action="/login" method="POST" class="px-3">
+                            <div class="input-group input-group-lg form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text rounded-0"><i class="far fa-envelope fa-lg fa-fw"></i></span>
+                                </div>
+                                <input type="email" id="email" name="email" class="form-control rounded-0" placeholder="E-Mail" required />
+                            </div>
+                            <div class="input-group input-group-lg form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text rounded-0"><i class="fas fa-key fa-lg fa-fw"></i></span>
+                                </div>
+                                <input type="password" id="password" name="password" class="form-control rounded-0" minlength="5" placeholder="Password" required autocomplete="off" />
+                            </div>
+                            <div class="form-group clearfix">
+                                <div class="custom-control custom-checkbox float-left">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="rem" />
+                                    <label class="custom-control-label" for="customCheck">Remember me</label>
+                                </div>
+                                <div class="forgot float-right">
+                                    <a href="#" id="forgot-link">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" id="login-btn" value="Sign In" class="btn btn-primary btn-lg btn-block myBtn" />
+                            </div>
+                        </form>
+                        <div class="text-center">
+                            <p>Don't have an account? <a href="/" class="text-primary">Signup here</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex flex-column p-4">
+                        <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login Form End -->
+    <footer class="container mt-4">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2024 The News. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

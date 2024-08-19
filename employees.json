@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "qwe@gmail.com",
+    "phone": 1234567890,
+    "salary": 5010
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "qwe@gmail.com",
+    "phone": 1234567890,
+    "salary": 60004
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "email": "qwe@gmail.com",
+    "phone": 1234567890,
+    "salary": 55004
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "email": "qwe@gmail.com",
+    "phone": 1234567890,
+    "salary": 70004
+  },
+  {
+    "id": 5,
+    "name": "Dibya Das",
+    "email": "qwe@gmail.com",
+    "phone": 1234567890,
+    "salary": 50000
+  },
+  {
+    "id": 6,
+    "name": "henry white",
+    "email": "1234@asd",
+    "phone": "7896454123",
+    "salary": 90000
+  }
+]

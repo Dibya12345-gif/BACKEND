@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee CRUD Operations</title>
+</head>
+<body>
+    <h1>Employee CRUD Operations</h1>
+
+    <h2>Add Employee</h2>
+    <form action="/add" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <h2>Update Employee</h2>
+    <form action="/update" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="salary">New Salary:</label>
+        <input type="number" id="salary" name="salary" required>
+        <button type="submit">Update</button>
+    </form>
+
+    <h2>Delete Employee</h2>
+    <form action="/delete" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Delete</button>
+    </form>
+
+    <h2>List Employees</h2>
+    <form action="/list" method="get">
+        <button type="submit">List Employees</button>
+    </form>
+</body>
+</html>
